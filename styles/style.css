@@ -1,0 +1,12 @@
+body {
+    /* background-image: url("../Images/Pixel\ factory\ gif.gif"); */
+    background-size: auto;
+}
+canvas {
+    border: 5px solid green;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    /* background-image: url("../Images/pixeled\ factory.webp");
+    background-size: cover; */
+}
