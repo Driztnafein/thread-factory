@@ -4,17 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Canvas Basics</title>
+    <title>Thread Factory</title>
  
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
     <!-- the magic happens inside is tag - 
-            it's HTML5 tag that supports animation -->
-  <canvas id="main" width="300" height="694"></canvas>
-    <!-- include js file after DOM is loaded; 
-            if included earlier, you have to use window.onload = function(){ ... } 
-            approach in your intro.js file -->
+              it's HTML5 tag that supports animation -->
+      <div id = "container1">
+        <canvas id="timer" width="200" height="100"></canvas>
+        <canvas id="score" width="200" height="100"></canvas>
+      </div>
+      <div id = "container2">
+        <canvas id="main" width="300" height="694"></canvas>
+        <canvas id="challenges" width="200" height="200"></canvas>
+      </div>
+      <!-- include js file after DOM is loaded; 
+              if included earlier, you have to use window.onload = function(){ ... } 
+              approach in your intro.js file -->
     <script src="js/script.js"></script>
   </body>
 </html>

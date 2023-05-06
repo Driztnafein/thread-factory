@@ -1,12 +1,27 @@
 body {
-    /* background-image: url("../Images/Pixel\ factory\ gif.gif"); */
-    background-size: auto;
-}
+    background-image: url("../Images/Pixel\ factory\ gif.gif");
+    background-size: cover;
+} 
 canvas {
-    border: 5px solid green;
+    border: 4px solid grey;
     margin-right: auto;
     margin-left: auto;
     display: block;
-    /* background-image: url("../Images/pixeled\ factory.webp");
-    background-size: cover; */
+    background-color: lightslategrey;
+    opacity: 0.7;
+    margin-top: 10px;
 }
+
+#container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+#container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  

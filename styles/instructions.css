@@ -1,0 +1,28 @@
+body {
+    background-image: url("../Images/Pixel\ factory\ gif.gif");
+    background-size: cover;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.instructions {
+    display: block;
+    text-align: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;  
+    justify-content: space-between
+}
+
+#buttoms {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 20px;
+    align-items: center;
+}
